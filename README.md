@@ -1,6 +1,4 @@
-# geobek-magichand
-📐 geobek-magichand
-sihirli el kamerasıyla tablet kamerasından akıllı tahtadaki 3d şekli açar,kapar büyütür,küçültür döndürür taşırsınız.
+📐 Geometri Araç Seti (tab-that-aktarim)
 Dijital Geometri Laboratuvarı ve Etkileşimli Sınıf Platformu
 
 Bu yazılım, geometri öğretimini somutlaştırmak, etkileşimi artırmak ve geleneksel ölçüm araçlarını dijital dünyanın hızıyla birleştirmek amacıyla geliştirilmiş, gönüllü bir eğitim platformudur.
