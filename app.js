@@ -9136,8 +9136,6 @@ function calculateDistance(p1, p2) {
                                         const dx = px1 - startX;
                                         const dy = py1 - startY;
                                         
-                                        if (Math.abs(dx) > 1.0 || Math.abs(dy) > 1.0) { // Deadzone: Sadece gercek hareketlerde don!
-
                                         // Gimbal Lock Fix + Trackball (Dunya Maketi) Eksen Donusumu
                                         const camRight = new THREE.Vector3(1, 0, 0).applyQuaternion(window.Scene3D.camera.quaternion);
                                         const camUp = new THREE.Vector3(0, 1, 0).applyQuaternion(window.Scene3D.camera.quaternion);
@@ -9158,7 +9156,6 @@ function calculateDistance(p1, p2) {
                                             sd.rotationZ = euler.z;
                                             if (typeof window.sendNetworkData === "function") { window.sendNetworkData({ type: "sekil_guncelle", stroke: sd }); }
                                         }
-                                        } // Deadzone sonu
                                     }
                                     startX = px1;
                                     startY = py1;
